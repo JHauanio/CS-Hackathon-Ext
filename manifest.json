@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3, 
+    "name":"Mfing Annoying Website",
+    "version": "1.0",
+    "description": "mfing annoying website",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["./main.js"]
+        }
+        ],
+    "host_permissions": ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"]
+}
